@@ -1,0 +1,36 @@
+@media (max-width: 640px) {
+/* mobil */
+h1 {
+    color: blue;
+}
+#tab, #lap, #pc{
+    display: none;
+}
+}
+@media (min-width: 641px) and (max-width: 767px) {
+/* tableta */
+h1 {
+    color: aqua;
+}
+#mob, #lap, #pc{
+    display: none;
+}
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+/* laptop */
+h1 {
+    color: red;
+}
+#mob, #tab, #pc{
+    display: none;
+}
+}
+@media (min-width: 1201px) {
+/* PC */
+h1 {
+    color: green;
+}
+#mob, #tab, #lap{
+    display: none;
+}
+}
